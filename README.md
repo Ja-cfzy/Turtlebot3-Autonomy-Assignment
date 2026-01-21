@@ -54,7 +54,7 @@ sudo apt install -y \
 
 ```bash
 source /opt/ros/humble/setup.bash
-export GAZEBO_MODEL_PATH=~/your_ws/src/burger_exploration/models/
+echo "export GAZEBO_MODEL_PATH=~/your_ws/src/burger_exploration/models/" >> /root/.bashrc
 ```
 
 There are total 3 packages, all packages must be installed as the turtlebot3 simulation depends on the first package: **burger_exploration**
@@ -437,3 +437,4 @@ https://drive.google.com/file/d/1oZTBdjTzFS5VrnyBXwJT4NHeXJ8cnAf5/view?usp=drive
 **ROS Version:** Humble
 
 **Tested On:** Ubuntu 22.04 LTS
+
