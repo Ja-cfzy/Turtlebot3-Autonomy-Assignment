@@ -48,7 +48,7 @@ sudo apt install -y \
   ros-humble-teleop-twist-keyboard \
   ros-humble-cv-bridge \
   ros-humble-image-transport \
-  libnlohmann-json3-dev \
+  nlohmann-json3-dev \
   imagemagick \
 ```
 
@@ -435,4 +435,5 @@ https://drive.google.com/file/d/1oZTBdjTzFS5VrnyBXwJT4NHeXJ8cnAf5/view?usp=drive
 
 **Last Updated:** January 2025
 **ROS Version:** Humble
+
 **Tested On:** Ubuntu 22.04 LTS
