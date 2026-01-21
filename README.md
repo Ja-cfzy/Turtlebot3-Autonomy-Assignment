@@ -32,8 +32,8 @@ This project implements autonomous exploration, SLAM, semantic reasoning and cus
 ## Quick Installation and Setup
 
 ```bash
-sudo apt update
-sudo apt install -y \
+sudo apt-get update
+sudo apt-get install -y \
   ros-humble-xacro \
   ros-humble-tf2-ros \
   ros-humble-tf2-geometry-msgs \
@@ -437,4 +437,5 @@ https://drive.google.com/file/d/1oZTBdjTzFS5VrnyBXwJT4NHeXJ8cnAf5/view?usp=drive
 **ROS Version:** Humble
 
 **Tested On:** Ubuntu 22.04 LTS
+
 
