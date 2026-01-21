@@ -1,0 +1,296 @@
+{
+  "locations": [
+    {
+      "id": 0,
+      "label": "entrance",
+      "synonyms": [
+        "lobby",
+        "reception"
+      ],
+      "position": {
+        "x": 3.2178819295675347,
+        "y": 0.7101988969180545,
+        "z": 0.0014029229718828132
+      },
+      "orientation": {
+        "x": 0.0012035457468854928,
+        "y": 0.0009090997029989758,
+        "z": 0.015580843142329564,
+        "w": 0.9998774736648183
+      },
+      "confidence": 0.8767155774442263,
+      "detection_count": 5,
+      "timestamps": [
+        "1769007114.213291.213291380",
+        "1769007324.665293.665293089",
+        "1769007333.473307.473307145",
+        "1769007462.566157.566156963",
+        "1769007612.038177.38177641"
+      ],
+      "image_paths": [
+        "src/semantic_reasoning/captures/img_0.jpg",
+        "src/semantic_reasoning/captures/img_4.jpg",
+        "src/semantic_reasoning/captures/img_5.jpg",
+        "src/semantic_reasoning/captures/img_7.jpg",
+        "src/semantic_reasoning/captures/img_9.jpg"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "meeting room",
+      "synonyms": [
+        "conference room",
+        "meeting area"
+      ],
+      "position": {
+        "x": 6.550292236111699,
+        "y": -0.4869874558311639,
+        "z": 0.0016675429154501369
+      },
+      "orientation": {
+        "x": 0.0025767667222468416,
+        "y": 0.0016129541679361272,
+        "z": -0.12407159422791844,
+        "w": 0.9922686118979346
+      },
+      "confidence": 0.5,
+      "detection_count": 2,
+      "timestamps": [
+        "1769007138.340847.340846503",
+        "1769007474.192082.192081928"
+      ],
+      "image_paths": [
+        "src/semantic_reasoning/captures/img_1.jpg",
+        "src/semantic_reasoning/captures/img_8.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "office",
+      "synonyms": [
+        "workspace",
+        "desk area",
+        "workstation"
+      ],
+      "position": {
+        "x": 13.150560297778167,
+        "y": 5.605392266608534,
+        "z": 0.0032659217777153277
+      },
+      "orientation": {
+        "x": -0.0007992700489759585,
+        "y": -0.0008476474766412533,
+        "z": 0.5157530258757497,
+        "w": 0.856736516649753
+      },
+      "confidence": 0.5,
+      "detection_count": 1,
+      "timestamps": [
+        "1769007204.353517.353516569"
+      ],
+      "image_paths": [
+        "src/semantic_reasoning/captures/img_2.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "store room",
+      "synonyms": [
+        "storage room",
+        "stock room"
+      ],
+      "position": {
+        "x": 19.365243110504043,
+        "y": -0.10341619950494166,
+        "z": 0.005456467171414001
+      },
+      "orientation": {
+        "x": -0.00017143890837879538,
+        "y": -0.005304742383563536,
+        "z": -0.25882844199765304,
+        "w": 0.9659087265006008
+      },
+      "confidence": 0.5,
+      "detection_count": 1,
+      "timestamps": [
+        "1769007249.086186.86186569"
+      ],
+      "image_paths": [
+        "src/semantic_reasoning/captures/img_3.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "pantry",
+      "synonyms": [
+        "kitchen",
+        "break room"
+      ],
+      "position": {
+        "x": -3.1196438423114503,
+        "y": -2.0554348028252907,
+        "z": 0.0014941341200960592
+      },
+      "orientation": {
+        "x": -8.417884871194026e-05,
+        "y": 0.001555690468890279,
+        "z": -0.7138666896417813,
+        "w": 0.7002798884453066
+      },
+      "confidence": 0.5,
+      "detection_count": 1,
+      "timestamps": [
+        "1769007366.462404.462404107"
+      ],
+      "image_paths": [
+        "src/semantic_reasoning/captures/img_6.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "entrance",
+      "synonyms": [
+        "lobby",
+        "reception"
+      ],
+      "position": {
+        "x": 3.2178819295675347,
+        "y": 0.7101988969180545,
+        "z": 0.0014029229718828132
+      },
+      "orientation": {
+        "x": 0.0012035457468854928,
+        "y": 0.0009090997029989758,
+        "z": 0.015580843142329564,
+        "w": 0.9998774736648183
+      },
+      "confidence": 0.8767155774442263,
+      "detection_count": 5,
+      "timestamps": [
+        "1769007114.213291.213291380",
+        "1769007324.665293.665293089",
+        "1769007333.473307.473307145",
+        "1769007462.566157.566156963",
+        "1769007612.038177.38177641"
+      ],
+      "image_paths": [
+        "src/semantic_reasoning/captures/img_0.jpg",
+        "src/semantic_reasoning/captures/img_4.jpg",
+        "src/semantic_reasoning/captures/img_5.jpg",
+        "src/semantic_reasoning/captures/img_7.jpg",
+        "src/semantic_reasoning/captures/img_9.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "label": "meeting room",
+      "synonyms": [
+        "conference room",
+        "meeting area"
+      ],
+      "position": {
+        "x": 6.550292236111699,
+        "y": -0.4869874558311639,
+        "z": 0.0016675429154501369
+      },
+      "orientation": {
+        "x": 0.0025767667222468416,
+        "y": 0.0016129541679361272,
+        "z": -0.12407159422791844,
+        "w": 0.9922686118979346
+      },
+      "confidence": 0.5,
+      "detection_count": 2,
+      "timestamps": [
+        "1769007138.340847.340846503",
+        "1769007474.192082.192081928"
+      ],
+      "image_paths": [
+        "src/semantic_reasoning/captures/img_1.jpg",
+        "src/semantic_reasoning/captures/img_8.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "label": "office",
+      "synonyms": [
+        "workspace",
+        "desk area",
+        "workstation"
+      ],
+      "position": {
+        "x": 13.150560297778167,
+        "y": 5.605392266608534,
+        "z": 0.0032659217777153277
+      },
+      "orientation": {
+        "x": -0.0007992700489759585,
+        "y": -0.0008476474766412533,
+        "z": 0.5157530258757497,
+        "w": 0.856736516649753
+      },
+      "confidence": 0.5,
+      "detection_count": 1,
+      "timestamps": [
+        "1769007204.353517.353516569"
+      ],
+      "image_paths": [
+        "src/semantic_reasoning/captures/img_2.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "label": "store room",
+      "synonyms": [
+        "storage room",
+        "stock room"
+      ],
+      "position": {
+        "x": 19.365243110504043,
+        "y": -0.10341619950494166,
+        "z": 0.005456467171414001
+      },
+      "orientation": {
+        "x": -0.00017143890837879538,
+        "y": -0.005304742383563536,
+        "z": -0.25882844199765304,
+        "w": 0.9659087265006008
+      },
+      "confidence": 0.5,
+      "detection_count": 1,
+      "timestamps": [
+        "1769007249.086186.86186569"
+      ],
+      "image_paths": [
+        "src/semantic_reasoning/captures/img_3.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "label": "pantry",
+      "synonyms": [
+        "kitchen",
+        "break room"
+      ],
+      "position": {
+        "x": -3.1196438423114503,
+        "y": -2.0554348028252907,
+        "z": 0.0014941341200960592
+      },
+      "orientation": {
+        "x": -8.417884871194026e-05,
+        "y": 0.001555690468890279,
+        "z": -0.7138666896417813,
+        "w": 0.7002798884453066
+      },
+      "confidence": 0.5,
+      "detection_count": 1,
+      "timestamps": [
+        "1769007366.462404.462404107"
+      ],
+      "image_paths": [
+        "src/semantic_reasoning/captures/img_6.jpg"
+      ]
+    }
+  ]
+}

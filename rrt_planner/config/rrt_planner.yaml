@@ -1,0 +1,9 @@
+/**:
+  ros__parameters:
+    # RRT Planner
+    'max_iterations': 10000
+    'step_size': 0.5
+    'goal_bias': 0.1
+    'robot_radius': 0.12
+    'inflation_radius': 0.15
+    'auto_execute': true

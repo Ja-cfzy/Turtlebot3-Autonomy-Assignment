@@ -1,0 +1,22 @@
+//Test1
+ros2 topic pub /start_pose geometry_msgs/msg/PoseStamped "{
+  header: {frame_id: 'map'},
+  pose: {position: {x: 1.0, y: 1.0}, orientation: {w: 1.0}}
+}" --once
+
+ros2 topic pub /goal_pose geometry_msgs/msg/PoseStamped "{
+  header: {frame_id: 'map'},
+  pose: {position: {x: 10.0, y: 10.0}, orientation: {w: 1.0}}
+}" --once
+
+
+//Test2
+ros2 topic pub /start_pose geometry_msgs/msg/PoseStamped "{
+  header: {frame_id: 'map'},
+  pose: {position: {x: 1.0, y: 1.0}, orientation: {w: 1.0}}
+}" --once
+
+ros2 topic pub /goal_pose geometry_msgs/msg/PoseStamped "{
+  header: {frame_id: 'map'},
+  pose: {position: {x: 20.0, y: 30.0}, orientation: {w: 1.0}}
+}" --once

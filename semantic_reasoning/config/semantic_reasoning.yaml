@@ -1,0 +1,18 @@
+/**:
+  ros__parameters:
+    # Semantic mapper
+    map_frame: "map"
+    base_frame: "base_link"
+    camera_topic: "/camera/image_raw"  
+    capture_interval: 3.0               # Interval between captures (seconds)
+    min_distance_between_captures: 2.0  # Minimum movement before capture (meters)
+    camera_offset_x: 0.5                # Image position relative to base (meters)
+    deduplication_distance: 3.0         # Distance threshold for location deduplication (meters)
+
+    save_images: true                   # Whether to save captured images
+    save_images_path: "src/semantic_reasoning/captures/"            # Directory to save images (relative path)
+    json_file_path: "src/semantic_reasoning/semantic_map.json"     # Path to save/load semantic map JSON file (relative path)
+
+    # Query handler
+    auto_navigate: true
+    similarity_threshold: 0.6           # Similarity threshold for querying locations
