@@ -152,11 +152,21 @@ Camera Image + Robot Pose → MockVLM Classification → Deduplication
 - `timestamps[]`: ALL timestamps from detection history
 
 **Mock Locations** (8 Total):
-- 2x Meeting rooms (6.5, 3.5), (6.5, -1.5)
+- 2x Meeting rooms 
+  - location: 
+  - synonyms: conference room, meeting area
 - 1x Pantry (-4.0, -2.0)
-- 1x Entrance (3.0, 1.0)
-- 3x Offices (-8.0, 1.0), (-6.0, -6.0), (13.0, 7.0)
-- 1x Store room (20.0, -1.0)
+  - location: (6.5, 3.5), (6.5, -1.5)
+  - synonyms: kitchen, break room
+- 1x Entrance 
+  - location: (3.0, 1.0)
+  - synonyms: lobby, reception
+- 3x Offices 
+  - location: (-8.0, 1.0), (-6.0, -6.0), (13.0, 7.0)
+  - synonyms: workspace, desk area, workstation
+- 1x Store room 
+  - location: (20.0, -1.0)
+  - synonyms: storage room, stock room
 
 **Semantic Label Generation** (MockVLM):
 1. Robot captures camera image at position (x, y)
@@ -437,5 +447,6 @@ https://drive.google.com/file/d/1oZTBdjTzFS5VrnyBXwJT4NHeXJ8cnAf5/view?usp=drive
 **ROS Version:** Humble
 
 **Tested On:** Ubuntu 22.04 LTS
+
 
 
