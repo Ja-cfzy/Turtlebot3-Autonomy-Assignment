@@ -407,6 +407,18 @@ ros2 topic pub /goal_pose geometry_msgs/msg/PoseStamped "{
   pose: {position: {x: 20.0, y: 30.0}, orientation: {w: 1.0}}
 }" --once
 ```
+```
+# If Terminal 2 (RRT_planner node) show:
+[rrt_planner]: ✗ Planning failed: Start position too close to obstacles!
+Publish the /start_pose topic again
+
+# If Terminal 2 (RRT_planner node) show:
+[rrt_planner]: ✗ Planning failed: Goal position too close to obstacles!"
+Publish the /goal_pose topic again
+
+# If need to plan a new path:
+Should close all the launch and open again
+```
 
 ### Deliverables
 ✅ **RRT Node:**
@@ -447,6 +459,7 @@ https://drive.google.com/file/d/1oZTBdjTzFS5VrnyBXwJT4NHeXJ8cnAf5/view?usp=drive
 **ROS Version:** Humble
 
 **Tested On:** Ubuntu 22.04 LTS
+
 
 
 
